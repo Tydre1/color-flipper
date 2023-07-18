@@ -13,12 +13,12 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-1: hsl(0, 0%, 99%);
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: hsl(0, 0%, 100%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -37,7 +37,7 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-white: #fff;
+  --clr-gradient: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
@@ -157,7 +157,7 @@ Nav
 ===============
 */
 nav {
-  background: var(--clr-white);
+  background: var(--clr-gradient);
   height: 3rem;
   display: grid;
   align-items: center;
@@ -204,7 +204,7 @@ main {
 }
 .container h2 {
   background: var(--clr-black);
-  color: var(--clr-white);
+  color: var(--clr-gradient);
   padding: 1rem;
   border-radius: var(--radius);
   margin-bottom: 2.5rem;
